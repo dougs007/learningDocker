@@ -1,0 +1,7 @@
+# Arquivos que não serão versionados ao github.
+
+.idea/
+.vscode/
+.nbprojects/
+
+
