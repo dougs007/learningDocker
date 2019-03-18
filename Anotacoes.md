@@ -49,11 +49,34 @@
 
 ### Perguntas frequentes.
 
-1) O que é um container?
+1 ) O que é um container?
 
 
-2) O que é uma imagem?
+2 ) O que é uma imagem?
 
 
-3) O que é um volume?
+3 ) O que é um volume?
 
+
+4 ) O que é um entrypoint no docker?
+
+
+5 ) O que é workdir no docker?
+
+
+### Comandos dentro do Dockerffile
+
+###### Baixar uma imagem node com a última versão
+> FROM node:latest
+
+###### Informar o mantedor da imagem
+> MAINTAINER Douglas Santana
+
+###### Copiar o projeto todo para a pasta /var/www/
+> COPY . /var/www
+
+###### Executar o comando para instalar as dependências
+> RUN npm install
+
+###### Executar no caminho exibido (work directory)
+> WORKDIR /var/www
