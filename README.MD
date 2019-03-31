@@ -5,7 +5,7 @@ Seja bem vindo ao repositório, criado com a finalidade de aprender Docker e Doc
 
 ## Tecnologias
 
-* [Docker](https://facebook.github.io/react-native/)
+* [Docker](https://docs.docker.com/)
 
 
 ## Configuração de Ambiente
