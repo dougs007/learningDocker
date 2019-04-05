@@ -56,7 +56,11 @@
 
 
 3 ) O que é um volume?
+    É onde será contidos os volumes de dados da aplicação, sendo salvo numa pasta no dockerhub. Logo, toda
+vez que você remover um container, ele não estará apagando todos os arquivos de log's, por causa que os mesmos
+estão contidos ao dockerhub.
 
+    3.1 ) Como um volume na máquina se conecta e faz para receber e enviar dados ao dockerhub ?
 
 4 ) O que é um entrypoint no docker?
 
@@ -80,3 +84,15 @@
 
 ###### Executar no caminho exibido (work directory)
 > WORKDIR /var/www
+
+
+
+## Comandos utilizados.
+
+
+> docker build -f Dockerfile - cria uma imagem a partir de um Dockerfile.
+> docker build -f CAMINHO_DOCKERFILE/Dockerfile -t NOME_USUARIO/NOME_IMAGEM - constrói e nomeia uma imagem
+não-o cial informando o caminho para o Dockerfile.
+> docker login - inicia o processo de login no Docker Hub.
+> docker push NOME_USUARIO/NOME_IMAGEM - envia a imagem criada para o Docker Hub.
+> docker pull NOME_USUARIO/NOME_IMAGEM - baixa a imagem desejada do Docker Hub.
