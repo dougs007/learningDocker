@@ -1,27 +1,25 @@
 ---
 name: Reportar Erro
-about: Criar uma issue para correção de uma funcionalidade.
+about: Correção de uma funcionalidade no sistema.
 title: "[CORREÇÃO] -----nome-da-funcionalidade-a-ser-corrigida------"
 labels: bug
 assignees: ''
 
 ---
 
-**Descrição do bug**
-O que deveria fazer que não está fazendo ? (Responder abaixo)
+#### _Descrição do Erro_
+O que o sistema deveria fazer que não está fazendo ?
+- [ ] Fazer ... 
 
-**Como reproduzir**
+#### _Como reproduzir_
 Passos para reproduzir o Bug:
 1. Informar a url '...'
 2. Clique em '....'
 3. Ao fazer '....'
 4. Vemos o erro
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**PrintScreen**
-Caso se aplique, insira print aqui para informar o erro caso se aplique.
+#### _PrintScreen_
+Caso se aplique, insira um print nesse espaço para informar o erro detalhadamente.
 
 Demandante:
-Sr: Douglas X
+Sr: Marcelo Cavalheiro
